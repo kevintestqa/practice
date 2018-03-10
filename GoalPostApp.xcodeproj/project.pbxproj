@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A22E6C12050959000593B8D /* GoalCreationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A22E6C02050959000593B8D /* GoalCreationVC.swift */; };
+		9A17A86C20544B7C000F50E6 /* CreateGoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A17A86B20544B7C000F50E6 /* CreateGoalsVC.swift */; };
 		9A2F65B7203E4BFA00AEC4F1 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2F65B6203E4BFA00AEC4F1 /* GoalCell.swift */; };
 		9A611D3F203B8100005DE0F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A611D3E203B8100005DE0F2 /* AppDelegate.swift */; };
 		9A611D41203B8100005DE0F2 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A611D40203B8100005DE0F2 /* GoalsVC.swift */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A22E6C02050959000593B8D /* GoalCreationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCreationVC.swift; sourceTree = "<group>"; };
+		9A17A86B20544B7C000F50E6 /* CreateGoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalsVC.swift; sourceTree = "<group>"; };
 		9A2F65B6203E4BFA00AEC4F1 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		9A611D3B203B8100005DE0F2 /* GoalPostApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalPostApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A611D3E203B8100005DE0F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				9A611D40203B8100005DE0F2 /* GoalsVC.swift */,
-				9A22E6C02050959000593B8D /* GoalCreationVC.swift */,
+				9A17A86B20544B7C000F50E6 /* CreateGoalsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -184,8 +184,8 @@
 				9AB34750204B6A5A001AE13F /* GoalType.swift in Sources */,
 				9A611D47203B8100005DE0F2 /* GoalPostApp.xcdatamodeld in Sources */,
 				9A611D41203B8100005DE0F2 /* GoalsVC.swift in Sources */,
-				9A22E6C12050959000593B8D /* GoalCreationVC.swift in Sources */,
 				9A611D3F203B8100005DE0F2 /* AppDelegate.swift in Sources */,
+				9A17A86C20544B7C000F50E6 /* CreateGoalsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -192,10 +192,10 @@
             </objects>
             <point key="canvasLocation" x="133.59999999999999" y="126.38680659670166"/>
         </scene>
-        <!--View Controller-->
+        <!--Create GoalsVC-->
         <scene sceneID="M4e-8w-CRP">
             <objects>
-                <viewController id="Ppl-b6-44r" sceneMemberID="viewController">
+                <viewController id="Ppl-b6-44r" customClass="CreateGoalsVC" customModule="GoalPostApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ThC-L3-f4T">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -226,6 +226,9 @@
                                             <constraint firstAttribute="height" constant="30" id="rDv-7h-Qn4"/>
                                         </constraints>
                                         <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="backButtonWasPressed:" destination="Ppl-b6-44r" eventType="touchUpInside" id="Gek-Y9-uy3"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.71372549019999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -263,6 +266,9 @@
                                                 <state key="normal" title="Short Term">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="shortTermButtonWasPressed:" destination="Ppl-b6-44r" eventType="touchUpInside" id="39j-h6-dk3"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFR-jD-Xxi">
                                                 <rect key="frame" x="177.5" y="0.0" width="157.5" height="50"/>
@@ -271,6 +277,9 @@
                                                 <state key="normal" title="Long Term">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="longTermButtonWasPressed:" destination="Ppl-b6-44r" eventType="touchUpInside" id="flL-3j-rry"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -292,6 +301,9 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextButtonWasPressed:" destination="Ppl-b6-44r" eventType="touchUpInside" id="CGI-3A-K6u"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -308,6 +320,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zSe-QO-GWy"/>
                     </view>
+                    <connections>
+                        <outlet property="goalTextView" destination="C8m-Ps-Jq9" id="5hB-ML-Xlw"/>
+                        <outlet property="longTermButton" destination="RFR-jD-Xxi" id="eoc-5d-QNt"/>
+                        <outlet property="nextButton" destination="Fgg-Cm-nuB" id="YXa-cT-Z4g"/>
+                        <outlet property="shortTermButton" destination="5a2-7Q-JWz" id="HUf-ir-yWS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sEg-s0-9h0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
