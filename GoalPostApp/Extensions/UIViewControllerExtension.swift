@@ -15,8 +15,7 @@ extension UIViewController {
         transition.type = kCATransitionPush
         transition.subtype = kCATransitionFromRight
         self.view.window?.layer.add(transition, forKey: kCATransition)
-        
-        
+    
         present(viewControllerToPresent, animated: false, completion: nil)
     }
     func dismissDetail() {
