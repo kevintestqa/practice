@@ -19,6 +19,7 @@
 		9A611D49203B8100005DE0F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A611D48203B8100005DE0F2 /* Assets.xcassets */; };
 		9A611D4C203B8100005DE0F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A611D4A203B8100005DE0F2 /* LaunchScreen.storyboard */; };
 		9AB34750204B6A5A001AE13F /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3474F204B6A5A001AE13F /* GoalType.swift */; };
+		9AD71D9D2061D48100C67BF2 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD71D9C2061D48100C67BF2 /* FinishGoalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		9A611D4B203B8100005DE0F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A611D4D203B8100005DE0F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AB3474F204B6A5A001AE13F /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		9AD71D9C2061D48100C67BF2 /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				9A611D40203B8100005DE0F2 /* GoalsVC.swift */,
 				9A17A86B20544B7C000F50E6 /* CreateGoalsVC.swift */,
+				9AD71D9C2061D48100C67BF2 /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				9A194868205DF41200239386 /* UIButtonExtension.swift in Sources */,
 				9A15351F2054E127009C6316 /* UIViewControllerExtension.swift in Sources */,
 				9A194866205DEE9600239386 /* UIViewExtension.swift in Sources */,
+				9AD71D9D2061D48100C67BF2 /* FinishGoalVC.swift in Sources */,
 				9A17A86C20544B7C000F50E6 /* CreateGoalsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
