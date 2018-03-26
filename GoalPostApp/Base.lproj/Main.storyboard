@@ -364,6 +364,9 @@
                                             <constraint firstAttribute="height" constant="30" id="3XJ-y5-Qtb"/>
                                         </constraints>
                                         <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="backButtonWasPressed:" destination="KDk-6N-H0h" eventType="touchUpInside" id="0nf-4j-wyG"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.71372549019999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>

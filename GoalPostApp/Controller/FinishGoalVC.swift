@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class FinishGoalVC: UIViewController, UITextFieldDelegate {
 
@@ -34,5 +35,26 @@ class FinishGoalVC: UIViewController, UITextFieldDelegate {
     @IBAction func createGoalButtonWasPressed(_ sender: Any) {
         //Pass data into Core Data Goal Model
     }
+    @IBAction func backButtonWasPressed(_ sender: Any) {
+        dismissDetail()
+    }
+    
+    
+    func save(completion: (_ finished: Bool)->()){
+        guard let managedContext = appDelegate?.persistentContainer.viewContext else {return}
+        let goal = Goal(context: managedContext)
+        
+        goal.goalDescription = goalDescription
+        goal.goalType = goalType.rawValue
+        goal.goalCompletionValue = Int32(pointsTextField.text!)!
+        goal.goalProgress = Int32(0)
+    }
+    
+    
+    
+    
+    
+    
+    
     
 }
