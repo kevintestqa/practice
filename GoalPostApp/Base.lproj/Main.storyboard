@@ -403,45 +403,41 @@
                                 </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NjH-iU-al4">
-                                <rect key="frame" x="0.0" y="208" width="375" height="604"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KxB-NL-ta6">
-                                        <rect key="frame" x="0.0" y="521" width="375" height="50"/>
-                                        <color key="backgroundColor" red="0.91764705879999997" green="0.66274509800000003" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="EbZ-OL-eUB"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
-                                        <state key="normal" title="Create Goal">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="createGoalButtonWasPressed:" destination="KDk-6N-H0h" eventType="touchUpInside" id="lwd-Hu-8ee"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
+                                <rect key="frame" x="0.0" y="174" width="375" height="570"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="KxB-NL-ta6" firstAttribute="leading" secondItem="NjH-iU-al4" secondAttribute="leading" id="AFb-dM-7Vg"/>
-                                    <constraint firstAttribute="trailing" secondItem="KxB-NL-ta6" secondAttribute="trailing" id="Gg0-Vq-aFp"/>
-                                    <constraint firstAttribute="trailing" secondItem="KxB-NL-ta6" secondAttribute="trailing" id="MnX-Fd-7K9"/>
-                                    <constraint firstItem="KxB-NL-ta6" firstAttribute="leading" secondItem="NjH-iU-al4" secondAttribute="leading" id="udu-Y2-5to"/>
-                                    <constraint firstAttribute="bottom" secondItem="KxB-NL-ta6" secondAttribute="bottom" id="wYj-kG-hys"/>
-                                </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KxB-NL-ta6">
+                                <rect key="frame" x="0.0" y="728" width="375" height="50"/>
+                                <color key="backgroundColor" red="0.91764705879999997" green="0.66274509800000003" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="EbZ-OL-eUB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Create Goal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="createGoalButtonWasPressed:" destination="KDk-6N-H0h" eventType="touchUpInside" id="lwd-Hu-8ee"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ogL-jF-hWR" firstAttribute="leading" secondItem="CId-Qe-L6I" secondAttribute="leading" constant="20" id="2LP-h5-mze"/>
                             <constraint firstItem="NjH-iU-al4" firstAttribute="trailing" secondItem="CId-Qe-L6I" secondAttribute="trailing" id="2yT-dd-Jfj"/>
                             <constraint firstItem="IXX-Vb-abk" firstAttribute="top" secondItem="N8y-wU-2dU" secondAttribute="top" id="9zX-Ba-2tZ"/>
+                            <constraint firstAttribute="bottom" secondItem="KxB-NL-ta6" secondAttribute="bottom" constant="34" id="Kyr-ah-8j6"/>
+                            <constraint firstItem="KxB-NL-ta6" firstAttribute="leading" secondItem="N8y-wU-2dU" secondAttribute="leading" id="LyH-Ie-guu"/>
                             <constraint firstItem="NjH-iU-al4" firstAttribute="leading" secondItem="CId-Qe-L6I" secondAttribute="leading" id="Ogv-HW-N2L"/>
-                            <constraint firstAttribute="bottom" secondItem="NjH-iU-al4" secondAttribute="bottom" id="U7M-DN-Ofo"/>
+                            <constraint firstAttribute="bottom" secondItem="NjH-iU-al4" secondAttribute="bottom" constant="68" id="U7M-DN-Ofo"/>
                             <constraint firstItem="IXX-Vb-abk" firstAttribute="leading" secondItem="CId-Qe-L6I" secondAttribute="leading" id="UcY-Po-1vR"/>
                             <constraint firstItem="ogL-jF-hWR" firstAttribute="top" secondItem="IXX-Vb-abk" secondAttribute="bottom" constant="20" id="ar3-8P-qdh"/>
+                            <constraint firstAttribute="trailing" secondItem="KxB-NL-ta6" secondAttribute="trailing" id="cWO-iw-Rcy"/>
                             <constraint firstItem="CId-Qe-L6I" firstAttribute="trailing" secondItem="ogL-jF-hWR" secondAttribute="trailing" constant="20" id="e2q-kQ-qvu"/>
+                            <constraint firstAttribute="trailing" secondItem="KxB-NL-ta6" secondAttribute="trailing" id="lKM-Mz-ViV"/>
                             <constraint firstItem="IXX-Vb-abk" firstAttribute="trailing" secondItem="CId-Qe-L6I" secondAttribute="trailing" id="tje-Bs-K6U"/>
-                            <constraint firstItem="NjH-iU-al4" firstAttribute="top" secondItem="ogL-jF-hWR" secondAttribute="bottom" constant="8" id="uw7-Bk-mmx"/>
+                            <constraint firstItem="NjH-iU-al4" firstAttribute="top" secondItem="ogL-jF-hWR" secondAttribute="bottom" constant="-26" id="uw7-Bk-mmx"/>
+                            <constraint firstItem="KxB-NL-ta6" firstAttribute="leading" secondItem="N8y-wU-2dU" secondAttribute="leading" id="wgc-4V-CpX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="CId-Qe-L6I"/>
                     </view>
@@ -452,7 +448,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jUH-oX-0Lp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1526" y="123"/>
+            <point key="canvasLocation" x="1525.5999999999999" y="122.66009852216749"/>
         </scene>
     </scenes>
     <resources>
